@@ -102,5 +102,9 @@ UI:AddButton("Монстер Клоун", function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Roblox-VEREUS-monster-script-3746"))()
 end)
 
+UI:AddButton("Бан Молоток", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xLHUcVjx"))()
+end)
+
 UI:AnimateIn()
 UI:ShowSplash(0.8)
