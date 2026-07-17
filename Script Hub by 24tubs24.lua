@@ -55354,6 +55354,14 @@ UI:AddButton("mm2 esp script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ScpGuest666/Random-Roblox-script/main/Roblox%20murder%20mystery%202%20ESP%20script'))()
 end)
 
+UI:AddButton("Fake Knife for mm2", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/t7Dk8Ybb", true))()
+end)
+
+UI:AddButton("Pulse Hub for mm2", function()
+    loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/5857a6cfae3b902eb3c2dff7cdbf173b.lua"))()
+end)
+
 local footerLabel = Instance.new("TextLabel")
 footerLabel.Parent = UI.MainFrame
 footerLabel.BackgroundTransparency = 1
